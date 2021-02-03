@@ -11,15 +11,15 @@ class Pz < Formula
 
   if OS.mac?
     url "https://github.com/project-zer0/pz-launcher/releases/download/0.1.3/pz-launcher_0.1.3_Darwin_x86_64.tar.gz"
-    sha256 "ec2168d2b236d0d556aa4e23ffecfa65cd1170d32aabcc1bf35556f4e442cad6"
+    sha256 "9b91b88375a12433e42b3152fc4a4235db760cfe93ac275dbb2148d13a152f9f"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/project-zer0/pz-launcher/releases/download/0.1.3/pz-launcher_0.1.3_Linux_x86_64.tar.gz"
-    sha256 "aae6d4502286fdab0b40d8d2474e298aaa454fccb698ead3efaf84d9446bfda3"
+    sha256 "74ac0e977426b550a1a012989fc3174c20978fb619e47212fbbcd7d1b4c31b87"
   end
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
     url "https://github.com/project-zer0/pz-launcher/releases/download/0.1.3/pz-launcher_0.1.3_Linux_arm64.tar.gz"
-    sha256 "7714b16971026e9c466ac58beef9aea76a44e182b4e7176bb07d118f13f846b7"
+    sha256 "89dbea1ab424549b856384293582d3a75461623be3ddb23716fe183c7b7a39d6"
   end
 
   head "https://github.com/project-zer0/pz-launcher.git"
